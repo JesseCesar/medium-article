@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  text-align: center;
+  background-color: #E3F2F0;
+}
+.banner{
+  background-image:url("https://media.cnn.com/api/v1/images/stellar/prod/230419001006-02-barcelona-real-madrid-dispute.jpg?c=original");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  color: whitesmoke;
+  font-size: 30px;
+  border-radius: 30px;
+  padding: 10px;
+  letter-spacing: 5px;
+}
+.content{
+  margin: 50px;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: yellow;
+}
+.container{
+  width:50px auto;
+   margin: 50px auto;
+}
+/* Media queries */
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
